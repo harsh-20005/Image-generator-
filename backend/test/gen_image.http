@@ -1,0 +1,10 @@
+POST http://localhost:3000/generate-image
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzM3MDQ5NDk2LCJleHAiOjE3MzcwNTMwOTZ9.64UoLwPx0vJGhx05pc55AcEoafxDPKqx8kbLiue2who
+
+{
+    "prompt": "A cat in a hat",
+    "options": {
+      "format": "png"
+    }
+}
